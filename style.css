@@ -4,11 +4,24 @@ header{
     color:blue;
 }
 aside {
+    position:relative;
     float: left;
+    margin-bottom:90%;
 }
 main {
+    position:relative;
+    min-height:100vh;
     float:right;
     margin-top: 0;
     float:right;
-    width:70%;
+    width:60%;
+}
+#content-wrap {
+    padding-bottom:2.5rem;
+}
+footer {
+    vertical-align: bottom;
+    margin-bottom: 0px;
+    position: absolute;
+    bottom: 0;
 }
