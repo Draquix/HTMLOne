@@ -26,6 +26,8 @@ aside {
 
 }
 main {
+    padding:10px;
+    background-color:pink;
     float:right;
     position:relative;
     min-height:100vh;
@@ -33,7 +35,7 @@ main {
     width:70%;
 }
 #content-wrap {
-    float:right;
+    float:right;   
     /*clear:both;*/
     padding-bottom:2.5rem;
 }
