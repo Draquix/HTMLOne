@@ -5,8 +5,7 @@ header{
 }
 aside {
     position:relative;
-    float: left;
-    margin-bottom:90%;
+    float: left;;
 }
 main {
     position:relative;
