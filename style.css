@@ -12,32 +12,39 @@ body{
 aside {
     clear:both;
     margin-top: 20px;
-    width:30%;
+    width:25%;
     background-color: lavender;
     position:absolute;
     float: left;
 }
 .all-of-it {
     clear:both;
-    background-color:rgb(160, 149, 149);
-    display:inline-block;
-    position:relative;
+    background-color:#a09595;
+    /*display:inlne-block;*/
+    position:absolute;
     border: 4px solid red;
 
 }
 main {
+    float:right;
     position:relative;
     min-height:100vh;
     margin-top: 20px;
-    width:60%;
+    width:70%;
 }
 #content-wrap {
     float:right;
+    /*clear:both;*/
     padding-bottom:2.5rem;
 }
 footer {
+    text-align:center;
+    padding:10px;
+    Color: magenta;
+    text-shadow:4px 4px 4px black;
+    background-color:darkblue;
     clear:both;
     margin-bottom: 0px;
-    position: absolute;
+    position: relative;
     bottom: 0;
 }
