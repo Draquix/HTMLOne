@@ -1,0 +1,6 @@
+I made this image using the basic microsoft paint that was 
+included in windows distributions for decades.
+It is here to satisfy a requirement in Lab 08.
+This text file is so I could change the file tree to have an
+images folder and push the new structure to GitHub where I will
+upload the image.
