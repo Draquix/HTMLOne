@@ -64,7 +64,7 @@ function logoLoop() {
     logoPrompt();
     var display = document.getElementById('image-box');
     while (logos > 0) {
-        display.innerHTML += "<img src='https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Fgeneric-logo&psig=AOvVaw3SxINbTmKjqzWU-Fwi3-mJ&ust=1608328603746000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKDrhIuB1u0CFQAAAAAdAAAAABAD'>";
+        display.innerHTML += '<img src=http://blog.dominictrumfio.com/wp-content/uploads/2015/08/Lorem-Ipsum-2.jpg" alt="from wiki" width="150">'
         logos--;
     }
 }
