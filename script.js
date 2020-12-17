@@ -48,12 +48,29 @@ function pagePrompt() {
         alert("That's a terrible color...");
     }
     document.body.style.backgroundColor = colorSelect;
-    while (colorValidate() === false && counter < 3) {
-        counter++;
+    while (colorValidate() === false) {
         colorSelect = prompt("Please enter a valid color. (try "+counter+" of 3)");
         document.body.style.backgroundColor = colorSelect;
     }
     document.getElementById('quest').innerHTML = quest;
     nameToClass(name);
 }
-
+//This function will use a prompt to decide how many (up to 10)
+//iterations of the logo to be displayed on the page using
+//a for loop.
+var logos = 0;
+function logoLoop() {
+    console.log('logoloop executed');
+    logoPrompt();
+    var display = document.getElementById('image-box');
+    while (logos > 0) {
+        display.innerHTML += "<img src='/Images/logo.png'>";
+        logos--;
+    }
+}
+function logoPrompt(){
+    logos = prompt('How many logos (between 1 and 10) would you like generated?');
+    if (logos < 1 || logos > 10){
+        logoPrompt()
+    }
+}
